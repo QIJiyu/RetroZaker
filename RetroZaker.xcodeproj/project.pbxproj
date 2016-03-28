@@ -23,6 +23,13 @@
 		9A2401291CA8F75500C8EC95 /* ZakerHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401281CA8F75500C8EC95 /* ZakerHotViewController.m */; };
 		9A24012C1CA8F79700C8EC95 /* ZakerFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24012B1CA8F79700C8EC95 /* ZakerFunViewController.m */; };
 		9A24012F1CA8F84300C8EC95 /* ZakerCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24012E1CA8F84300C8EC95 /* ZakerCommunityViewController.m */; };
+		9A2401331CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401311CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.m */; };
+		9A2401341CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2401321CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.xib */; };
+		9A2401371CA920C800C8EC95 /* ZakerSlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401361CA920C800C8EC95 /* ZakerSlidingMenuViewController.m */; };
+		9A24013A1CA921ED00C8EC95 /* ZakerSlidingMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401391CA921ED00C8EC95 /* ZakerSlidingMenuTableView.m */; };
+		9A24013D1CA924D600C8EC95 /* ZakerTopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24013C1CA924D600C8EC95 /* ZakerTopMenu.m */; };
+		9A2401411CA9269500C8EC95 /* ZakerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401401CA9269500C8EC95 /* ZakerButton.m */; };
+		9A2401441CA9305300C8EC95 /* ZakerLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401431CA9305300C8EC95 /* ZakerLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +84,19 @@
 		9A24012B1CA8F79700C8EC95 /* ZakerFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerFunViewController.m; sourceTree = "<group>"; };
 		9A24012D1CA8F84300C8EC95 /* ZakerCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerCommunityViewController.h; sourceTree = "<group>"; };
 		9A24012E1CA8F84300C8EC95 /* ZakerCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerCommunityViewController.m; sourceTree = "<group>"; };
+		9A2401301CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerSubscribeCollectionViewCell.h; sourceTree = "<group>"; };
+		9A2401311CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerSubscribeCollectionViewCell.m; sourceTree = "<group>"; };
+		9A2401321CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZakerSubscribeCollectionViewCell.xib; sourceTree = "<group>"; };
+		9A2401351CA920C800C8EC95 /* ZakerSlidingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerSlidingMenuViewController.h; sourceTree = "<group>"; };
+		9A2401361CA920C800C8EC95 /* ZakerSlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerSlidingMenuViewController.m; sourceTree = "<group>"; };
+		9A2401381CA921ED00C8EC95 /* ZakerSlidingMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerSlidingMenuTableView.h; sourceTree = "<group>"; };
+		9A2401391CA921ED00C8EC95 /* ZakerSlidingMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerSlidingMenuTableView.m; sourceTree = "<group>"; };
+		9A24013B1CA924D600C8EC95 /* ZakerTopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerTopMenu.h; sourceTree = "<group>"; };
+		9A24013C1CA924D600C8EC95 /* ZakerTopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerTopMenu.m; sourceTree = "<group>"; };
+		9A24013F1CA9269500C8EC95 /* ZakerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerButton.h; sourceTree = "<group>"; };
+		9A2401401CA9269500C8EC95 /* ZakerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerButton.m; sourceTree = "<group>"; };
+		9A2401421CA9305300C8EC95 /* ZakerLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerLine.h; sourceTree = "<group>"; };
+		9A2401431CA9305300C8EC95 /* ZakerLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerLine.m; sourceTree = "<group>"; };
 		F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroZaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker.release.xcconfig"; sourceTree = "<group>"; };
 		FE28250251AE3A57B811309C /* libPods-RetroZaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroZaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -190,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				9A2400F21CA8D43300C8EC95 /* Src */,
+				9A24013E1CA9268400C8EC95 /* Tools */,
 				9A2400F31CA8D44400C8EC95 /* Global */,
 				9A2400F51CA8D47300C8EC95 /* Constant */,
 				9A2400F41CA8D46300C8EC95 /* AppDelegate */,
@@ -214,6 +235,12 @@
 		9A2400F31CA8D44400C8EC95 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				9A2401351CA920C800C8EC95 /* ZakerSlidingMenuViewController.h */,
+				9A2401361CA920C800C8EC95 /* ZakerSlidingMenuViewController.m */,
+				9A2401381CA921ED00C8EC95 /* ZakerSlidingMenuTableView.h */,
+				9A2401391CA921ED00C8EC95 /* ZakerSlidingMenuTableView.m */,
+				9A24013B1CA924D600C8EC95 /* ZakerTopMenu.h */,
+				9A24013C1CA924D600C8EC95 /* ZakerTopMenu.m */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -308,6 +335,9 @@
 		9A2401021CA8D58800C8EC95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9A2401301CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.h */,
+				9A2401311CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.m */,
+				9A2401321CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -395,6 +425,17 @@
 			children = (
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		9A24013E1CA9268400C8EC95 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9A24013F1CA9269500C8EC95 /* ZakerButton.h */,
+				9A2401401CA9269500C8EC95 /* ZakerButton.m */,
+				9A2401421CA9305300C8EC95 /* ZakerLine.h */,
+				9A2401431CA9305300C8EC95 /* ZakerLine.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,6 +547,7 @@
 				9A2400CE1CA8D36200C8EC95 /* LaunchScreen.storyboard in Resources */,
 				9A2400CB1CA8D36200C8EC95 /* Assets.xcassets in Resources */,
 				9A2400C91CA8D36200C8EC95 /* Main.storyboard in Resources */,
+				9A2401341CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,14 +621,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A24011D1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m in Sources */,
+				9A24013A1CA921ED00C8EC95 /* ZakerSlidingMenuTableView.m in Sources */,
+				9A2401331CA91B2800C8EC95 /* ZakerSubscribeCollectionViewCell.m in Sources */,
 				9A2401231CA8F4FD00C8EC95 /* ZakerTabBarController.m in Sources */,
 				9A2401291CA8F75500C8EC95 /* ZakerHotViewController.m in Sources */,
+				9A2401371CA920C800C8EC95 /* ZakerSlidingMenuViewController.m in Sources */,
 				9A2401201CA8F4E600C8EC95 /* ZakerNavigationController.m in Sources */,
 				9A2401161CA8DBA600C8EC95 /* ZakerBaseViewController.m in Sources */,
 				9A2400C31CA8D36200C8EC95 /* ZakerAppDelegate.m in Sources */,
 				9A2401261CA8F74000C8EC95 /* ZakerSubscribeViewController.m in Sources */,
 				9A2400C01CA8D36200C8EC95 /* main.m in Sources */,
+				9A2401441CA9305300C8EC95 /* ZakerLine.m in Sources */,
 				9A24012F1CA8F84300C8EC95 /* ZakerCommunityViewController.m in Sources */,
+				9A24013D1CA924D600C8EC95 /* ZakerTopMenu.m in Sources */,
+				9A2401411CA9269500C8EC95 /* ZakerButton.m in Sources */,
 				9A24012C1CA8F79700C8EC95 /* ZakerFunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

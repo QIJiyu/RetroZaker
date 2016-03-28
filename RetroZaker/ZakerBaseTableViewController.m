@@ -16,7 +16,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _dataSource = [NSMutableArray array];
+    [self createTableView];
+}
+
+- (void)createTableView {
+    self.myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT - 64 - 29) style:UITableViewStylePlain];
+    self.myTableView.backgroundColor = RGBCOLOR(255, 255, 255);
+    self.myTableView.delegate = self;
+    self.myTableView.dataSource = self;
+    self.myTableView.tableFooterView = [UIView new];
+    [self.view addSubview:self.myTableView];
+    
+    [self.myTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+}
+
+#pragma mark UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return _dataSource.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [_dataSource[section] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    return cell;
+}
+
+#pragma mark UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
 }
 
 - (void)didReceiveMemoryWarning {

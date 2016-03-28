@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Qi Jy/Hu Yr. All rights reserved.
 //
 
-#import "ZakerBaseViewController.h"
+#import "ZakerSlidingMenuViewController.h"
 
-@interface ZakerCommunityViewController : ZakerBaseViewController
+@interface ZakerCommunityViewController : ZakerSlidingMenuViewController
 
 @end

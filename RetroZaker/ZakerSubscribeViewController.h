@@ -8,6 +8,6 @@
 
 #import "ZakerBaseTableViewController.h"
 
-@interface ZakerSubscribeViewController : ZakerBaseTableViewController
+@interface ZakerSubscribeViewController : ZakerBaseTableViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @end

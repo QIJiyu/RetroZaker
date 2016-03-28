@@ -8,6 +8,9 @@
 
 #import "ZakerBaseViewController.h"
 
-@interface ZakerBaseTableViewController : ZakerBaseViewController
+@interface ZakerBaseTableViewController : ZakerBaseViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView    *myTableView;
+@property (nonatomic, strong) NSMutableArray *dataSource;
 
 @end
