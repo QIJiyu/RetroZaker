@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4957FBDF0938393F54C97A56 /* libPods-RetroZaker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE28250251AE3A57B811309C /* libPods-RetroZaker.a */; };
+		9A2400C01CA8D36200C8EC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400BF1CA8D36200C8EC95 /* main.m */; };
+		9A2400C31CA8D36200C8EC95 /* ZakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400C21CA8D36200C8EC95 /* ZakerAppDelegate.m */; };
+		9A2400C91CA8D36200C8EC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2400C71CA8D36200C8EC95 /* Main.storyboard */; };
+		9A2400CB1CA8D36200C8EC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2400CA1CA8D36200C8EC95 /* Assets.xcassets */; };
+		9A2400CE1CA8D36200C8EC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2400CC1CA8D36200C8EC95 /* LaunchScreen.storyboard */; };
+		9A2400D91CA8D36200C8EC95 /* RetroZakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400D81CA8D36200C8EC95 /* RetroZakerTests.m */; };
+		9A2400E41CA8D36200C8EC95 /* RetroZakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400E31CA8D36200C8EC95 /* RetroZakerUITests.m */; };
+		9A2401161CA8DBA600C8EC95 /* ZakerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401151CA8DBA600C8EC95 /* ZakerBaseViewController.m */; };
+		9A24011D1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24011C1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m */; };
+		9A2401201CA8F4E600C8EC95 /* ZakerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24011F1CA8F4E600C8EC95 /* ZakerNavigationController.m */; };
+		9A2401231CA8F4FD00C8EC95 /* ZakerTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401221CA8F4FD00C8EC95 /* ZakerTabBarController.m */; };
+		9A2401261CA8F74000C8EC95 /* ZakerSubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401251CA8F74000C8EC95 /* ZakerSubscribeViewController.m */; };
+		9A2401291CA8F75500C8EC95 /* ZakerHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401281CA8F75500C8EC95 /* ZakerHotViewController.m */; };
+		9A24012C1CA8F79700C8EC95 /* ZakerFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24012B1CA8F79700C8EC95 /* ZakerFunViewController.m */; };
+		9A24012F1CA8F84300C8EC95 /* ZakerCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24012E1CA8F84300C8EC95 /* ZakerCommunityViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A2400D51CA8D36200C8EC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2400B31CA8D36200C8EC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2400BA1CA8D36200C8EC95;
+			remoteInfo = RetroZaker;
+		};
+		9A2400E01CA8D36200C8EC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2400B31CA8D36200C8EC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2400BA1CA8D36200C8EC95;
+			remoteInfo = RetroZaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249FF84BE4650BFB280A127B /* Pods-RetroZaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroZaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2400BB1CA8D36200C8EC95 /* RetroZaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroZaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2400BF1CA8D36200C8EC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A2400C11CA8D36200C8EC95 /* ZakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZakerAppDelegate.h; sourceTree = "<group>"; };
+		9A2400C21CA8D36200C8EC95 /* ZakerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZakerAppDelegate.m; sourceTree = "<group>"; };
+		9A2400C81CA8D36200C8EC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2400CA1CA8D36200C8EC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A2400CD1CA8D36200C8EC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A2400CF1CA8D36200C8EC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2400D41CA8D36200C8EC95 /* RetroZakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroZakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2400D81CA8D36200C8EC95 /* RetroZakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroZakerTests.m; sourceTree = "<group>"; };
+		9A2400DA1CA8D36200C8EC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2400DF1CA8D36200C8EC95 /* RetroZakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroZakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2400E31CA8D36200C8EC95 /* RetroZakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroZakerUITests.m; sourceTree = "<group>"; };
+		9A2400E51CA8D36200C8EC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A24010E1CA8D5FF00C8EC95 /* ZakerPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerPrefixHeader.pch; sourceTree = "<group>"; };
+		9A24010F1CA8D60D00C8EC95 /* ZakerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerHeader.h; sourceTree = "<group>"; };
+		9A2401121CA8D76200C8EC95 /* ZakerDebugHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerDebugHeader.h; sourceTree = "<group>"; };
+		9A2401141CA8DBA600C8EC95 /* ZakerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerBaseViewController.h; sourceTree = "<group>"; };
+		9A2401151CA8DBA600C8EC95 /* ZakerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerBaseViewController.m; sourceTree = "<group>"; };
+		9A24011B1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerBaseTableViewController.h; sourceTree = "<group>"; };
+		9A24011C1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerBaseTableViewController.m; sourceTree = "<group>"; };
+		9A24011E1CA8F4E600C8EC95 /* ZakerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerNavigationController.h; sourceTree = "<group>"; };
+		9A24011F1CA8F4E600C8EC95 /* ZakerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerNavigationController.m; sourceTree = "<group>"; };
+		9A2401211CA8F4FD00C8EC95 /* ZakerTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerTabBarController.h; sourceTree = "<group>"; };
+		9A2401221CA8F4FD00C8EC95 /* ZakerTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerTabBarController.m; sourceTree = "<group>"; };
+		9A2401241CA8F74000C8EC95 /* ZakerSubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerSubscribeViewController.h; sourceTree = "<group>"; };
+		9A2401251CA8F74000C8EC95 /* ZakerSubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerSubscribeViewController.m; sourceTree = "<group>"; };
+		9A2401271CA8F75500C8EC95 /* ZakerHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerHotViewController.h; sourceTree = "<group>"; };
+		9A2401281CA8F75500C8EC95 /* ZakerHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerHotViewController.m; sourceTree = "<group>"; };
+		9A24012A1CA8F79700C8EC95 /* ZakerFunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerFunViewController.h; sourceTree = "<group>"; };
+		9A24012B1CA8F79700C8EC95 /* ZakerFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerFunViewController.m; sourceTree = "<group>"; };
+		9A24012D1CA8F84300C8EC95 /* ZakerCommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerCommunityViewController.h; sourceTree = "<group>"; };
+		9A24012E1CA8F84300C8EC95 /* ZakerCommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerCommunityViewController.m; sourceTree = "<group>"; };
+		F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroZaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker.release.xcconfig"; sourceTree = "<group>"; };
+		FE28250251AE3A57B811309C /* libPods-RetroZaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroZaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A2400B81CA8D36200C8EC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4957FBDF0938393F54C97A56 /* libPods-RetroZaker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400D11CA8D36200C8EC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400DC1CA8D36200C8EC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3345486CF3B1284E2FE9BDD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE28250251AE3A57B811309C /* libPods-RetroZaker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		356A22402918015779F9FCC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249FF84BE4650BFB280A127B /* Pods-RetroZaker.debug.xcconfig */,
+				F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A2400B21CA8D36200C8EC95 = {
+			isa = PBXGroup;
+			children = (
+				9A2400BD1CA8D36200C8EC95 /* RetroZaker */,
+				9A2400D71CA8D36200C8EC95 /* RetroZakerTests */,
+				9A2400E21CA8D36200C8EC95 /* RetroZakerUITests */,
+				9A2400BC1CA8D36200C8EC95 /* Products */,
+				356A22402918015779F9FCC8 /* Pods */,
+				3345486CF3B1284E2FE9BDD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2400BC1CA8D36200C8EC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400BB1CA8D36200C8EC95 /* RetroZaker.app */,
+				9A2400D41CA8D36200C8EC95 /* RetroZakerTests.xctest */,
+				9A2400DF1CA8D36200C8EC95 /* RetroZakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A2400BD1CA8D36200C8EC95 /* RetroZaker */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400F11CA8D3FD00C8EC95 /* Classes */,
+				9A2400BE1CA8D36200C8EC95 /* Supporting Files */,
+			);
+			path = RetroZaker;
+			sourceTree = "<group>";
+		};
+		9A2400BE1CA8D36200C8EC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400C71CA8D36200C8EC95 /* Main.storyboard */,
+				9A2400CA1CA8D36200C8EC95 /* Assets.xcassets */,
+				9A2400CC1CA8D36200C8EC95 /* LaunchScreen.storyboard */,
+				9A2400CF1CA8D36200C8EC95 /* Info.plist */,
+				9A2400BF1CA8D36200C8EC95 /* main.m */,
+				9A24010E1CA8D5FF00C8EC95 /* ZakerPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A2400D71CA8D36200C8EC95 /* RetroZakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400D81CA8D36200C8EC95 /* RetroZakerTests.m */,
+				9A2400DA1CA8D36200C8EC95 /* Info.plist */,
+			);
+			path = RetroZakerTests;
+			sourceTree = "<group>";
+		};
+		9A2400E21CA8D36200C8EC95 /* RetroZakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400E31CA8D36200C8EC95 /* RetroZakerUITests.m */,
+				9A2400E51CA8D36200C8EC95 /* Info.plist */,
+			);
+			path = RetroZakerUITests;
+			sourceTree = "<group>";
+		};
+		9A2400F11CA8D3FD00C8EC95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400F21CA8D43300C8EC95 /* Src */,
+				9A2400F31CA8D44400C8EC95 /* Global */,
+				9A2400F51CA8D47300C8EC95 /* Constant */,
+				9A2400F41CA8D46300C8EC95 /* AppDelegate */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9A2400F21CA8D43300C8EC95 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400F61CA8D4E000C8EC95 /* Base */,
+				9A2401001CA8D51900C8EC95 /* Subscribe */,
+				9A2400FF1CA8D51800C8EC95 /* Hot */,
+				9A2400FE1CA8D51300C8EC95 /* Fun */,
+				9A2400FD1CA8D51100C8EC95 /* Community */,
+				9A24011A1CA8DC8600C8EC95 /* Search */,
+				9A2400F91CA8D50B00C8EC95 /* Login */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		9A2400F31CA8D44400C8EC95 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		9A2400F41CA8D46300C8EC95 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A2400C11CA8D36200C8EC95 /* ZakerAppDelegate.h */,
+				9A2400C21CA8D36200C8EC95 /* ZakerAppDelegate.m */,
+				9A24011E1CA8F4E600C8EC95 /* ZakerNavigationController.h */,
+				9A24011F1CA8F4E600C8EC95 /* ZakerNavigationController.m */,
+				9A2401211CA8F4FD00C8EC95 /* ZakerTabBarController.h */,
+				9A2401221CA8F4FD00C8EC95 /* ZakerTabBarController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A2400F51CA8D47300C8EC95 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				9A24010F1CA8D60D00C8EC95 /* ZakerHeader.h */,
+				9A2401121CA8D76200C8EC95 /* ZakerDebugHeader.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		9A2400F61CA8D4E000C8EC95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401141CA8DBA600C8EC95 /* ZakerBaseViewController.h */,
+				9A2401151CA8DBA600C8EC95 /* ZakerBaseViewController.m */,
+				9A24011B1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.h */,
+				9A24011C1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9A2400F91CA8D50B00C8EC95 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		9A2400FD1CA8D51100C8EC95 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				9A24010C1CA8D5C100C8EC95 /* Controller */,
+				9A24010B1CA8D5BF00C8EC95 /* View */,
+				9A24010A1CA8D5BB00C8EC95 /* Model */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		9A2400FE1CA8D51300C8EC95 /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401091CA8D5AC00C8EC95 /* Controller */,
+				9A2401081CA8D5AA00C8EC95 /* View */,
+				9A2401071CA8D5A900C8EC95 /* Model */,
+			);
+			name = Fun;
+			sourceTree = "<group>";
+		};
+		9A2400FF1CA8D51800C8EC95 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401061CA8D5A000C8EC95 /* Controller */,
+				9A2401051CA8D59E00C8EC95 /* View */,
+				9A2401041CA8D59900C8EC95 /* Model */,
+			);
+			name = Hot;
+			sourceTree = "<group>";
+		};
+		9A2401001CA8D51900C8EC95 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401031CA8D58A00C8EC95 /* Controller */,
+				9A2401021CA8D58800C8EC95 /* View */,
+				9A2401011CA8D58400C8EC95 /* Model */,
+			);
+			name = Subscribe;
+			sourceTree = "<group>";
+		};
+		9A2401011CA8D58400C8EC95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A2401021CA8D58800C8EC95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A2401031CA8D58A00C8EC95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401241CA8F74000C8EC95 /* ZakerSubscribeViewController.h */,
+				9A2401251CA8F74000C8EC95 /* ZakerSubscribeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A2401041CA8D59900C8EC95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A2401051CA8D59E00C8EC95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A2401061CA8D5A000C8EC95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A2401271CA8F75500C8EC95 /* ZakerHotViewController.h */,
+				9A2401281CA8F75500C8EC95 /* ZakerHotViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A2401071CA8D5A900C8EC95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A2401081CA8D5AA00C8EC95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A2401091CA8D5AC00C8EC95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A24012A1CA8F79700C8EC95 /* ZakerFunViewController.h */,
+				9A24012B1CA8F79700C8EC95 /* ZakerFunViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A24010A1CA8D5BB00C8EC95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A24010B1CA8D5BF00C8EC95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A24010C1CA8D5C100C8EC95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A24012D1CA8F84300C8EC95 /* ZakerCommunityViewController.h */,
+				9A24012E1CA8F84300C8EC95 /* ZakerCommunityViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A24011A1CA8DC8600C8EC95 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A2400BA1CA8D36200C8EC95 /* RetroZaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2400E81CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZaker" */;
+			buildPhases = (
+				FAEA8051B63597CB14F32543 /* Check Pods Manifest.lock */,
+				9A2400B71CA8D36200C8EC95 /* Sources */,
+				9A2400B81CA8D36200C8EC95 /* Frameworks */,
+				9A2400B91CA8D36200C8EC95 /* Resources */,
+				082FF1CFB8918A11BEB06CD3 /* Embed Pods Frameworks */,
+				BC234938D0A26F161AC891EC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroZaker;
+			productName = RetroZaker;
+			productReference = 9A2400BB1CA8D36200C8EC95 /* RetroZaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A2400D31CA8D36200C8EC95 /* RetroZakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2400EB1CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZakerTests" */;
+			buildPhases = (
+				9A2400D01CA8D36200C8EC95 /* Sources */,
+				9A2400D11CA8D36200C8EC95 /* Frameworks */,
+				9A2400D21CA8D36200C8EC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2400D61CA8D36200C8EC95 /* PBXTargetDependency */,
+			);
+			name = RetroZakerTests;
+			productName = RetroZakerTests;
+			productReference = 9A2400D41CA8D36200C8EC95 /* RetroZakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A2400DE1CA8D36200C8EC95 /* RetroZakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2400EE1CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZakerUITests" */;
+			buildPhases = (
+				9A2400DB1CA8D36200C8EC95 /* Sources */,
+				9A2400DC1CA8D36200C8EC95 /* Frameworks */,
+				9A2400DD1CA8D36200C8EC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2400E11CA8D36200C8EC95 /* PBXTargetDependency */,
+			);
+			name = RetroZakerUITests;
+			productName = RetroZakerUITests;
+			productReference = 9A2400DF1CA8D36200C8EC95 /* RetroZakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A2400B31CA8D36200C8EC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Qi Jy/Hu Yr";
+				TargetAttributes = {
+					9A2400BA1CA8D36200C8EC95 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9A2400D31CA8D36200C8EC95 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9A2400BA1CA8D36200C8EC95;
+					};
+					9A2400DE1CA8D36200C8EC95 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9A2400BA1CA8D36200C8EC95;
+					};
+				};
+			};
+			buildConfigurationList = 9A2400B61CA8D36200C8EC95 /* Build configuration list for PBXProject "RetroZaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A2400B21CA8D36200C8EC95;
+			productRefGroup = 9A2400BC1CA8D36200C8EC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A2400BA1CA8D36200C8EC95 /* RetroZaker */,
+				9A2400D31CA8D36200C8EC95 /* RetroZakerTests */,
+				9A2400DE1CA8D36200C8EC95 /* RetroZakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A2400B91CA8D36200C8EC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2400CE1CA8D36200C8EC95 /* LaunchScreen.storyboard in Resources */,
+				9A2400CB1CA8D36200C8EC95 /* Assets.xcassets in Resources */,
+				9A2400C91CA8D36200C8EC95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400D21CA8D36200C8EC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400DD1CA8D36200C8EC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082FF1CFB8918A11BEB06CD3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC234938D0A26F161AC891EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEA8051B63597CB14F32543 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A2400B71CA8D36200C8EC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A24011D1CA8DD7D00C8EC95 /* ZakerBaseTableViewController.m in Sources */,
+				9A2401231CA8F4FD00C8EC95 /* ZakerTabBarController.m in Sources */,
+				9A2401291CA8F75500C8EC95 /* ZakerHotViewController.m in Sources */,
+				9A2401201CA8F4E600C8EC95 /* ZakerNavigationController.m in Sources */,
+				9A2401161CA8DBA600C8EC95 /* ZakerBaseViewController.m in Sources */,
+				9A2400C31CA8D36200C8EC95 /* ZakerAppDelegate.m in Sources */,
+				9A2401261CA8F74000C8EC95 /* ZakerSubscribeViewController.m in Sources */,
+				9A2400C01CA8D36200C8EC95 /* main.m in Sources */,
+				9A24012F1CA8F84300C8EC95 /* ZakerCommunityViewController.m in Sources */,
+				9A24012C1CA8F79700C8EC95 /* ZakerFunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400D01CA8D36200C8EC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2400D91CA8D36200C8EC95 /* RetroZakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2400DB1CA8D36200C8EC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2400E41CA8D36200C8EC95 /* RetroZakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A2400D61CA8D36200C8EC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2400BA1CA8D36200C8EC95 /* RetroZaker */;
+			targetProxy = 9A2400D51CA8D36200C8EC95 /* PBXContainerItemProxy */;
+		};
+		9A2400E11CA8D36200C8EC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2400BA1CA8D36200C8EC95 /* RetroZaker */;
+			targetProxy = 9A2400E01CA8D36200C8EC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A2400C71CA8D36200C8EC95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2400C81CA8D36200C8EC95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A2400CC1CA8D36200C8EC95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2400CD1CA8D36200C8EC95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A2400E61CA8D36200C8EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A2400E71CA8D36200C8EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A2400E91CA8D36200C8EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249FF84BE4650BFB280A127B /* Pods-RetroZaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RetroZaker/ZakerPrefixHeader.pch";
+				INFOPLIST_FILE = RetroZaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A2400EA1CA8D36200C8EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RetroZaker/ZakerPrefixHeader.pch";
+				INFOPLIST_FILE = RetroZaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A2400EC1CA8D36200C8EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetroZakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroZaker.app/RetroZaker";
+			};
+			name = Debug;
+		};
+		9A2400ED1CA8D36200C8EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetroZakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroZaker.app/RetroZaker";
+			};
+			name = Release;
+		};
+		9A2400EF1CA8D36200C8EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetroZakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetroZaker;
+			};
+			name = Debug;
+		};
+		9A2400F01CA8D36200C8EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetroZakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetroZaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A2400B61CA8D36200C8EC95 /* Build configuration list for PBXProject "RetroZaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2400E61CA8D36200C8EC95 /* Debug */,
+				9A2400E71CA8D36200C8EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2400E81CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2400E91CA8D36200C8EC95 /* Debug */,
+				9A2400EA1CA8D36200C8EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2400EB1CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2400EC1CA8D36200C8EC95 /* Debug */,
+				9A2400ED1CA8D36200C8EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2400EE1CA8D36200C8EC95 /* Build configuration list for PBXNativeTarget "RetroZakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2400EF1CA8D36200C8EC95 /* Debug */,
+				9A2400F01CA8D36200C8EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A2400B31CA8D36200C8EC95 /* Project object */;
+}

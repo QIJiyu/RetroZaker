@@ -1,0 +1,27 @@
+//
+//  ZakerPrefixHeader.pch
+//  RetroZaker
+//
+//  Created by 祁继宇 on 16/3/28.
+//  Copyright © 2016年 Qi Jy/Hu Yr. All rights reserved.
+//
+
+#ifndef ZakerPrefixHeader_pch
+#define ZakerPrefixHeader_pch
+
+#import "ZakerHeader.h"
+#import "ZakerDebugHeader.h"
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define KSCREENSIZE ([[UIScreen mainScreen] bounds].size)  //设备尺寸
+#define KSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define KSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#define KSTR_FORMAT(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZakerPrefixHeader_pch */
