@@ -17,12 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _dataSource = [NSMutableArray array];
+//    self.automaticallyAdjustsScrollViewInsets = NO;
     [self createTableView];
 }
 
 - (void)createTableView {
-    self.myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, KSCREEN_HEIGHT - 64 - 29) style:UITableViewStylePlain];
-    self.myTableView.backgroundColor = RGBCOLOR(255, 255, 255);
+    self.myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, KSCREEN_HEIGHT - 64) style:UITableViewStyleGrouped];
+//    self.myTableView.backgroundColor = RGBCOLOR(255, 255, 255);
     self.myTableView.delegate = self;
     self.myTableView.dataSource = self;
     self.myTableView.tableFooterView = [UIView new];
@@ -47,7 +48,7 @@
 
 #pragma mark UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

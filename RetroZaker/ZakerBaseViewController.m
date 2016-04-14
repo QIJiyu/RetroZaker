@@ -7,6 +7,7 @@
 //
 
 #import "ZakerBaseViewController.h"
+#import "MyInformationViewController.h"
 
 @interface ZakerBaseViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view. 
-
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -30,7 +31,9 @@
 }
 
 - (void)PersonalInformation {
-    
+    MyInformationViewController *viewController = [[MyInformationViewController alloc] init];
+    viewController.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

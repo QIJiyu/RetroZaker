@@ -10,9 +10,10 @@
 
 @interface ZakerSubscribeViewController ()
 
-@property (nonatomic, strong) UICollectionView *myCollectionView;
-@property (nonatomic, strong) NSMutableArray *collectionViewDataSource;
+@property (nonatomic, strong) UICollectionView           *myCollectionView;
+@property (nonatomic, strong) NSMutableArray             *collectionViewDataSource;
 @property (nonatomic, strong) UICollectionViewFlowLayout *collectionViewLayout;
+@property (nonatomic, strong) UIImageView                *dropCoverImageView;
 
 @end
 
@@ -20,23 +21,54 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _collectionViewDataSource = [NSMutableArray array];
+    _collectionViewDataSource = [NSMutableArray arrayWithObject:@[@"1", @"1", @"1", @"1", @"1", @"1", @"1"]];
     [self createCollectionView];
+    // 集成刷新控件
+    [self setupRefresh];
+    
+    [self createDropCover];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self createControl];
+    [self createMyControl];
+}
+
+/**
+ *  集成下拉刷新
+ */
+-(void)setupRefresh
+{
+    //1.添加刷新控件
+    UIRefreshControl *control=[[UIRefreshControl alloc]init];
+    [control addTarget:self action:@selector(refreshStateChange:) forControlEvents:UIControlEventValueChanged];
+    [_myCollectionView addSubview:control];
+    
+    //2.马上进入刷新状态，并不会触发UIControlEventValueChanged事件
+    [control beginRefreshing];
+    
+    // 3.加载数据
+    [self refreshStateChange:control];
+}
+
+/**
+ *  UIRefreshControl进入刷新状态
+ */
+-(void)refreshStateChange:(UIRefreshControl *)control
+{
+    // 3. 结束刷新
+    [control endRefreshing];
 }
 
 - (void)createCollectionView {
     _collectionViewLayout = [[UICollectionViewFlowLayout alloc] init];
-    _myCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, KSTATUSBAR_HEIGHT + KNAVIGATIONBAR_HEIGHT, KSCREEN_WIDTH, KSCREEN_HEIGHT) collectionViewLayout:_collectionViewLayout];
+    _myCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, KSCREEN_HEIGHT) collectionViewLayout:_collectionViewLayout];
     [self.view addSubview:_myCollectionView]; 
     _myCollectionView.delegate = self;
     _myCollectionView.dataSource = self;
     _myCollectionView.backgroundColor = RGBCOLOR(255, 255, 255);
-    [self.myCollectionView registerNib:[UINib nibWithNibName:@"ZakerSubscribeCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"aCell"];
+//    [self.myCollectionView registerNib:[UINib nibWithNibName:@"ZakerSubscribeCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"aCell"];
+    [self.myCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"aCell"];
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -81,9 +113,26 @@
     return YES;
 }
 
+#pragma mark 创建下拉封面
+- (void)createDropCover {
+    NSString *urlString = @"http://c.hiphotos.bdimg.com/imgad/pic/item/908fa0ec08fa513d94b921c23a6d55fbb2fbd99f.jpg";
+    _dropCoverImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -KSCREEN_HEIGHT, KSCREEN_WIDTH, KSCREEN_HEIGHT)];
+    [_dropCoverImageView sd_setImageWithURL:[NSURL URLWithString:urlString]];
+    
+    NSArray *windows = [UIApplication sharedApplication].windows;
+    UIWindow *window = [windows objectAtIndex:0];
+    if(window.subviews.count > 0){
+        [window addSubview:_dropCoverImageView];
+    }
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat y = scrollView.contentOffset.y;
+    ZAKER_Log(@"%f", y);
+}
 
 #pragma mark Control
-- (void)createControl {
+- (void)createMyControl {
     self.navigationItem.title = @"订阅";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(search)];
 }

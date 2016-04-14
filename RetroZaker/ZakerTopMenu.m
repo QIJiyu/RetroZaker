@@ -22,17 +22,19 @@
 }
 
 - (void)createButton {
+    CGFloat btnWidth = KSCREEN_WIDTH / _menuTitleArray.count;
+    NSInteger selectNumber = 0;
     for (NSInteger index = 0; index < _menuTitleArray.count; index++) {
-        CGFloat btnWidth = KSCREEN_WIDTH / _menuTitleArray.count;
         __block ZakerButton *btn = [ZakerButton addRect:CGRectMake(btnWidth * index, 0, btnWidth, self.frame.size.height - 1) Title:_menuTitleArray[index] andBlock:^(ZakerButton *button) {
             
+//        ZakerButton
             for (UIView *view in self.subviews) {
                 if ([view isKindOfClass:[ZakerButton class]]) {
-                    if (view == btn) {
-                        btn.selected = YES;
-                    }else if (view != btn){
+                    if((ZakerButton *)view != btn){
                         btn.selected = NO;
+                        btn = button;
                     }
+                    btn.selected = YES;
                 }
             }
             
@@ -45,6 +47,7 @@
         [self addSubview:btn];
         if (btn.tag == 100) {
             btn.selected = YES;
+            selectNumber = btn.tag;
             _selectLine = [[ZakerLine alloc] initWithFrame:CGRectMake(0, self.frame.size.height - 2, btnWidth, 2)];
             _selectLine.userInteractionEnabled = YES;
             [btn addSubview:_selectLine];

@@ -24,7 +24,7 @@
 }
 
 - (void)createTopMenu {
-    ZakerTopMenu *topMenu = [[ZakerTopMenu alloc] initWithFrame:CGRectMake(0, KSTATUSBAR_HEIGHT + KNAVIGATIONBAR_HEIGHT, KSCREEN_WIDTH, 30) menuTitleArray:@[@"关注", @"精选", @"发现"]];
+    ZakerTopMenu *topMenu = [[ZakerTopMenu alloc] initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, 30) menuTitleArray:@[@"关注", @"精选", @"发现"]];
     [self.view addSubview:topMenu];
 }
 

@@ -9,6 +9,7 @@ pod 'MJRefresh'
 pod 'Masonry'
 pod 'iRate'
 pod 'iVersion'
+pod 'SDWebImage'
 
 end
 

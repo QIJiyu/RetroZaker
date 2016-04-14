@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D28CB96ECF2455439AF71A42'
+               BlueprintIdentifier = '82309F6189B73C663F420CFD'
                BlueprintName = 'Pods-RetroZaker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-RetroZaker.a'>

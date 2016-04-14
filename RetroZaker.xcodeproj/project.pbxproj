@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4957FBDF0938393F54C97A56 /* libPods-RetroZaker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE28250251AE3A57B811309C /* libPods-RetroZaker.a */; };
+		9A1A4D361CBE12C90006AE7E /* EditDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A4D351CBE12C90006AE7E /* EditDataViewController.m */; };
 		9A2400C01CA8D36200C8EC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400BF1CA8D36200C8EC95 /* main.m */; };
 		9A2400C31CA8D36200C8EC95 /* ZakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2400C21CA8D36200C8EC95 /* ZakerAppDelegate.m */; };
 		9A2400C91CA8D36200C8EC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2400C71CA8D36200C8EC95 /* Main.storyboard */; };
@@ -30,6 +31,16 @@
 		9A24013D1CA924D600C8EC95 /* ZakerTopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24013C1CA924D600C8EC95 /* ZakerTopMenu.m */; };
 		9A2401411CA9269500C8EC95 /* ZakerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401401CA9269500C8EC95 /* ZakerButton.m */; };
 		9A2401441CA9305300C8EC95 /* ZakerLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2401431CA9305300C8EC95 /* ZakerLine.m */; };
+		9AE314261CBC90C30084F1E3 /* MyInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE314251CBC90C30084F1E3 /* MyInformationViewController.m */; };
+		9AE3142C1CBC98E50084F1E3 /* MyInformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3142B1CBC98E50084F1E3 /* MyInformationTableViewCell.m */; };
+		9AE314321CBC9E6F0084F1E3 /* Miscellaneous.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE314311CBC9E6F0084F1E3 /* Miscellaneous.m */; };
+		9AE314381CBCCF440084F1E3 /* QrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE314371CBCCF440084F1E3 /* QrCodeViewController.m */; };
+		9AE88C491CBF869D00A930BF /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE88C451CBF869D00A930BF /* libWeChatSDK.a */; };
+		9AE88C4B1CBF8A7300A930BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE88C4A1CBF8A7300A930BF /* CoreTelephony.framework */; };
+		9AE88C4D1CBF8AAC00A930BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE88C4C1CBF8AAC00A930BF /* SystemConfiguration.framework */; };
+		9AE88C4F1CBF8AB800A930BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE88C4E1CBF8AB800A930BF /* libz.tbd */; };
+		9AE88C511CBF8ABF00A930BF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE88C501CBF8ABF00A930BF /* libsqlite3.0.tbd */; };
+		9AE88C561CBF8E8600A930BF /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE88C551CBF8E8600A930BF /* WXApiManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,8 @@
 
 /* Begin PBXFileReference section */
 		249FF84BE4650BFB280A127B /* Pods-RetroZaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroZaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1A4D341CBE12C90006AE7E /* EditDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDataViewController.h; sourceTree = "<group>"; };
+		9A1A4D351CBE12C90006AE7E /* EditDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDataViewController.m; sourceTree = "<group>"; };
 		9A2400BB1CA8D36200C8EC95 /* RetroZaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroZaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2400BF1CA8D36200C8EC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A2400C11CA8D36200C8EC95 /* ZakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZakerAppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +110,24 @@
 		9A2401401CA9269500C8EC95 /* ZakerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerButton.m; sourceTree = "<group>"; };
 		9A2401421CA9305300C8EC95 /* ZakerLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZakerLine.h; sourceTree = "<group>"; };
 		9A2401431CA9305300C8EC95 /* ZakerLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZakerLine.m; sourceTree = "<group>"; };
+		9AE314241CBC90C30084F1E3 /* MyInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInformationViewController.h; sourceTree = "<group>"; };
+		9AE314251CBC90C30084F1E3 /* MyInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInformationViewController.m; sourceTree = "<group>"; };
+		9AE3142A1CBC98E50084F1E3 /* MyInformationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInformationTableViewCell.h; sourceTree = "<group>"; };
+		9AE3142B1CBC98E50084F1E3 /* MyInformationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInformationTableViewCell.m; sourceTree = "<group>"; };
+		9AE314301CBC9E6F0084F1E3 /* Miscellaneous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Miscellaneous.h; sourceTree = "<group>"; };
+		9AE314311CBC9E6F0084F1E3 /* Miscellaneous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Miscellaneous.m; sourceTree = "<group>"; };
+		9AE314361CBCCF440084F1E3 /* QrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeViewController.h; sourceTree = "<group>"; };
+		9AE314371CBCCF440084F1E3 /* QrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeViewController.m; sourceTree = "<group>"; };
+		9AE88C451CBF869D00A930BF /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9AE88C471CBF869D00A930BF /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9AE88C481CBF869D00A930BF /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		9AE88C4A1CBF8A7300A930BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9AE88C4C1CBF8AAC00A930BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9AE88C4E1CBF8AB800A930BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9AE88C501CBF8ABF00A930BF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9AE88C521CBF8DD400A930BF /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9AE88C541CBF8E8600A930BF /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		9AE88C551CBF8E8600A930BF /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
 		F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroZaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetroZaker/Pods-RetroZaker.release.xcconfig"; sourceTree = "<group>"; };
 		FE28250251AE3A57B811309C /* libPods-RetroZaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroZaker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +137,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE88C511CBF8ABF00A930BF /* libsqlite3.0.tbd in Frameworks */,
+				9AE88C4F1CBF8AB800A930BF /* libz.tbd in Frameworks */,
+				9AE88C4D1CBF8AAC00A930BF /* SystemConfiguration.framework in Frameworks */,
+				9AE88C4B1CBF8A7300A930BF /* CoreTelephony.framework in Frameworks */,
+				9AE88C491CBF869D00A930BF /* libWeChatSDK.a in Frameworks */,
 				4957FBDF0938393F54C97A56 /* libPods-RetroZaker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +166,10 @@
 		3345486CF3B1284E2FE9BDD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AE88C501CBF8ABF00A930BF /* libsqlite3.0.tbd */,
+				9AE88C4E1CBF8AB800A930BF /* libz.tbd */,
+				9AE88C4C1CBF8AAC00A930BF /* SystemConfiguration.framework */,
+				9AE88C4A1CBF8A7300A930BF /* CoreTelephony.framework */,
 				FE28250251AE3A57B811309C /* libPods-RetroZaker.a */,
 			);
 			name = Frameworks;
@@ -142,6 +182,22 @@
 				F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A1A4D331CBE116E0006AE7E /* DetailsController */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A4D341CBE12C90006AE7E /* EditDataViewController.h */,
+				9A1A4D351CBE12C90006AE7E /* EditDataViewController.m */,
+			);
+			name = DetailsController;
+			sourceTree = "<group>";
+		};
+		9A20178D1CBF33C60026F032 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdLibrary;
 			sourceTree = "<group>";
 		};
 		9A2400B21CA8D36200C8EC95 = {
@@ -213,6 +269,9 @@
 				9A24013E1CA9268400C8EC95 /* Tools */,
 				9A2400F31CA8D44400C8EC95 /* Global */,
 				9A2400F51CA8D47300C8EC95 /* Constant */,
+				9AE88C531CBF8E7400A930BF /* Control */,
+				9AE88C441CBF864600A930BF /* Integration */,
+				9A20178D1CBF33C60026F032 /* ThirdLibrary */,
 				9A2400F41CA8D46300C8EC95 /* AppDelegate */,
 			);
 			name = Classes;
@@ -228,6 +287,7 @@
 				9A2400FD1CA8D51100C8EC95 /* Community */,
 				9A24011A1CA8DC8600C8EC95 /* Search */,
 				9A2400F91CA8D50B00C8EC95 /* Login */,
+				9AE314231CBC906F0084F1E3 /* MyInformation */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -434,8 +494,60 @@
 				9A2401401CA9269500C8EC95 /* ZakerButton.m */,
 				9A2401421CA9305300C8EC95 /* ZakerLine.h */,
 				9A2401431CA9305300C8EC95 /* ZakerLine.m */,
+				9AE314301CBC9E6F0084F1E3 /* Miscellaneous.h */,
+				9AE314311CBC9E6F0084F1E3 /* Miscellaneous.m */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		9AE314231CBC906F0084F1E3 /* MyInformation */ = {
+			isa = PBXGroup;
+			children = (
+				9AE314271CBC98630084F1E3 /* Controller */,
+				9AE314281CBC98710084F1E3 /* View */,
+			);
+			name = MyInformation;
+			sourceTree = "<group>";
+		};
+		9AE314271CBC98630084F1E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AE314241CBC90C30084F1E3 /* MyInformationViewController.h */,
+				9AE314251CBC90C30084F1E3 /* MyInformationViewController.m */,
+				9A1A4D331CBE116E0006AE7E /* DetailsController */,
+				9AE314361CBCCF440084F1E3 /* QrCodeViewController.h */,
+				9AE314371CBCCF440084F1E3 /* QrCodeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9AE314281CBC98710084F1E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3142A1CBC98E50084F1E3 /* MyInformationTableViewCell.h */,
+				9AE3142B1CBC98E50084F1E3 /* MyInformationTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AE88C441CBF864600A930BF /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				9AE88C451CBF869D00A930BF /* libWeChatSDK.a */,
+				9AE88C521CBF8DD400A930BF /* WechatAuthSDK.h */,
+				9AE88C471CBF869D00A930BF /* WXApi.h */,
+				9AE88C481CBF869D00A930BF /* WXApiObject.h */,
+			);
+			name = Integration;
+			sourceTree = "<group>";
+		};
+		9AE88C531CBF8E7400A930BF /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				9AE88C541CBF8E8600A930BF /* WXApiManager.h */,
+				9AE88C551CBF8E8600A930BF /* WXApiManager.m */,
+			);
+			name = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,6 +620,7 @@
 				TargetAttributes = {
 					9A2400BA1CA8D36200C8EC95 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TRNT5HVTY3;
 					};
 					9A2400D31CA8D36200C8EC95 = {
 						CreatedOnToolsVersion = 7.3;
@@ -626,14 +739,20 @@
 				9A2401231CA8F4FD00C8EC95 /* ZakerTabBarController.m in Sources */,
 				9A2401291CA8F75500C8EC95 /* ZakerHotViewController.m in Sources */,
 				9A2401371CA920C800C8EC95 /* ZakerSlidingMenuViewController.m in Sources */,
+				9AE314261CBC90C30084F1E3 /* MyInformationViewController.m in Sources */,
 				9A2401201CA8F4E600C8EC95 /* ZakerNavigationController.m in Sources */,
+				9A1A4D361CBE12C90006AE7E /* EditDataViewController.m in Sources */,
 				9A2401161CA8DBA600C8EC95 /* ZakerBaseViewController.m in Sources */,
 				9A2400C31CA8D36200C8EC95 /* ZakerAppDelegate.m in Sources */,
+				9AE314381CBCCF440084F1E3 /* QrCodeViewController.m in Sources */,
+				9AE314321CBC9E6F0084F1E3 /* Miscellaneous.m in Sources */,
 				9A2401261CA8F74000C8EC95 /* ZakerSubscribeViewController.m in Sources */,
 				9A2400C01CA8D36200C8EC95 /* main.m in Sources */,
 				9A2401441CA9305300C8EC95 /* ZakerLine.m in Sources */,
 				9A24012F1CA8F84300C8EC95 /* ZakerCommunityViewController.m in Sources */,
+				9AE3142C1CBC98E50084F1E3 /* MyInformationTableViewCell.m in Sources */,
 				9A24013D1CA924D600C8EC95 /* ZakerTopMenu.m in Sources */,
+				9AE88C561CBF8E8600A930BF /* WXApiManager.m in Sources */,
 				9A2401411CA9269500C8EC95 /* ZakerButton.m in Sources */,
 				9A24012C1CA8F79700C8EC95 /* ZakerFunViewController.m in Sources */,
 			);
@@ -777,12 +896,19 @@
 			baseConfigurationReference = 249FF84BE4650BFB280A127B /* Pods-RetroZaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/RetroZaker/ZakerPrefixHeader.pch";
 				INFOPLIST_FILE = RetroZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RetroZaker",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -791,12 +917,19 @@
 			baseConfigurationReference = F8A65024D79E8166BB4B7020 /* Pods-RetroZaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/RetroZaker/ZakerPrefixHeader.pch";
 				INFOPLIST_FILE = RetroZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RetroZaker",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Imp24B6.RetroZaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -11,8 +11,12 @@
 
 #import "ZakerHeader.h"
 #import "ZakerDebugHeader.h"
+#import "Miscellaneous.h"
+#import "UIImageView+WebCache.h"
 
-#define DEFAULT_COLOR [UIColor colorWithRed:227.0/255.0 green:68.0/255.0 blue:66.0/255.0 alpha:1]
+#define kString_Format(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__]
+
+#define DEFAULT_COLOR [UIColor colorWithRed:230/255.0 green:94.0/255.0 blue:93.0/255.0 alpha:1]
 
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]

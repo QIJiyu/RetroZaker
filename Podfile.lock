@@ -3,17 +3,22 @@ PODS:
   - iVersion (1.11.4)
   - Masonry (0.6.4)
   - MJRefresh (3.1.0)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
 
 DEPENDENCIES:
   - iRate
   - iVersion
   - Masonry
   - MJRefresh
+  - SDWebImage
 
 SPEC CHECKSUMS:
   iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
   iVersion: 2b6ffe708672cb494ba3cab150a94800c2892e81
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
 
 COCOAPODS: 0.39.0
